@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import ThreadsList from "../components/thread/threadList";
+
 import asyncPopulateUsersAndThreads from "../states/shared/action";
 import {
   asyncUpVoteThread,
@@ -9,6 +9,7 @@ import {
   asyncNeturalizeVoteThread,
 } from "../states/threads/action";
 import { FiPlusCircle } from "react-icons/fi";
+import ThreadsList from "./../components/thread/ThreadList";
 
 function HomePage() {
   const [filter, setFilter] = useState("");
