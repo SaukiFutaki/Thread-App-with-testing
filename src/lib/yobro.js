@@ -1,3 +1,3 @@
 console.log("tes")
 
-console.table("hahahaha")
+console.table("halo tes ")
