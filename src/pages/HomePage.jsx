@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import ThreadsList from "../components/thread/threadList";
+import ThreadsList from "./../components/thread/ThreadList";
 import asyncPopulateUsersAndThreads from "../states/shared/action";
 import {
   asyncUpVoteThread,
