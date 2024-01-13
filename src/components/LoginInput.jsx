@@ -35,5 +35,5 @@ export default function Logininput({ login }) {
 }
 
 Logininput.propTypes = {
-  login: PropTypes.string.isRequired,
+  login: PropTypes.func.isRequired,
 };
