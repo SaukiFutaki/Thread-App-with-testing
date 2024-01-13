@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { asyncCreateThread } from "../states/threads/action";
 
-import ThreadInput from "../components/thread/threadInput";
+import ThreadInput from "./../components/thread/ThreadInput";
 
 export default function AddThreadPage() {
   const dispatch = useDispatch();
